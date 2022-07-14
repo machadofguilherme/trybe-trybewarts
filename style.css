@@ -24,3 +24,8 @@ main {
   flex-direction: column;
   width: 675px;
 }
+
+.coluna4 {
+  display: flex;
+  align-items: flex-start;
+}
