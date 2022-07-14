@@ -25,6 +25,5 @@ btnLogin.addEventListener('click', (e) => {
 
 contadora.innerHTML = 500;
 fieldC.addEventListener('keyup', () => {
-  console.log(fieldC.value.length);
   contadora.innerHTML = 500 - fieldC.value.length;
 });
