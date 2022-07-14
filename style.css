@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arima, cursive;
+}
+
 .header {
   align-items: center;
   background-color: rgb(50, 167, 145);
@@ -47,12 +59,36 @@ header img {
 
 main {
   display: flex;
+  justify-content: space-between;
+  padding: 50px;
 }
 
 #evaluation-form {
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
+  padding: 10px;
   width: 675px;
+}
+
+#input-name , #input-lastname , #input-email {
+  border: 2px solid rgb(50, 167, 145);
+  border-radius: 3px;
+  margin: 5px;
+  padding: 10px;
+}
+
+#house {
+  align-self: center;
+  background: rgb(105, 89, 204);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 900;
+  height: 40px;
+  margin-left: 5px;
+  text-align: center;
+  width: 227px;
 }
 
 .coluna4 {
