@@ -3,6 +3,8 @@ const fieldSenha = document.getElementById('fieldSenha');
 const btnLogin = document.getElementById('btn-login');
 const submitBtn = document.getElementById('submit-btn');
 const submitCheck = document.getElementById('agreement');
+const contadora = window.document.querySelector('span#counter');
+const fieldC = window.document.querySelector('#textarea');
 
 submitCheck.addEventListener('click', () => {
   if (submitCheck.checked === true) {
@@ -19,4 +21,10 @@ btnLogin.addEventListener('click', (e) => {
   } else {
     alert('Email ou senha inválidos.');
   }
+});
+
+contadora.innerHTML = 500;
+fieldC.addEventListener('keyup', () => {
+  console.log(fieldC.value.length);
+  contadora.innerHTML = 500 - fieldC.value.length;
 });
