@@ -29,3 +29,8 @@ main {
   display: flex;
   align-items: flex-start;
 }
+
+.concordo {
+  display: flex;
+  align-items: center;
+}
