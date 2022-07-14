@@ -5,7 +5,7 @@
   justify-content: space-between;
 }
 
-.trybewarts-login {
+.trybewarts-login , .coluna1 , .coluna2 {
   display: flex;
 }
 
@@ -17,8 +17,4 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
-}
-
-.coluna1 {
-  display: flex;
 }
