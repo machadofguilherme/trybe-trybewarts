@@ -9,6 +9,12 @@
   display: flex;
 }
 
+.coluna3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 main {
   display: flex;
 }
