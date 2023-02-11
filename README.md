@@ -1,7 +1,12 @@
-## Trybe | Trybewarts
 
-Projeto desenvolvido em conjunto com meu colega Guilherme Artigas. O nosso objetivo era desenvolver uma página organizando-a com Flexbox e adicionando alguma inteligência utilizando o JavaScript para isso. O JavaScript nesse projeto foi utilizado especialmente no tratamento dos formulários contidos na página.
+# [Trybe] - Trybewarts
 
-IMAGENS ORIGINAIS CEDIDAS PELA TRYBE! AS IMAGENS SÃO DE AUTORIA DA TRYBE! 
+Trybewarts se trata de uma página de formulário para inscrição em uma escola de magia ficcional chamada Trybewarts.
 
-Como estudantes, nosso dever era desenvolver o HTML, CSS e JavaScript da página para que cada requisito fosse aprovado nos testes.
+Foi um projeto em duplas/trios. Esse projeto que realizei foi desenvolvido em conjunto com [Guilherme Artigas](https://www.linkedin.com/in/guilherme-artigas/).
+
+
+## Informações adicionais
+
+- Há um formulário de login na parte superior da página.
+- Há um formulário no centro da página.
